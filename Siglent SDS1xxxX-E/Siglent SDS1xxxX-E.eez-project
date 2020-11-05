@@ -1,0 +1,60 @@
+{
+  "settings": {
+    "general": {
+      "imports": []
+    },
+    "build": {
+      "configurations": [
+        {
+          "name": "Siglent SDS1xxxX-E",
+          "description": "TODO..."
+        }
+      ],
+      "files": []
+    }
+  },
+  "scpi": {
+    "subsystems": [
+      {
+        "name": "Misc",
+        "commands": [
+          {
+            "name": "SCDP",
+            "description": "Screen Dump",
+            "parameters": [],
+            "response": {
+              "type": [
+                {}
+              ]
+            },
+            "sendsBackDataBlock": true
+          }
+        ]
+      }
+    ],
+    "enums": []
+  },
+  "shortcuts": {
+    "shortcuts": []
+  },
+  "extensionDefinitions": [
+    {
+      "name": "Siglent SDS1xxxX-E",
+      "description": "TODO...",
+      "buildConfiguration": "Siglent SDS1xxxX-E",
+      "image": "..\\..\\..\\..\\Users\\mvladic\\Desktop\\Screenshot 2020-11-05 113855.jpg",
+      "extensionName": "Siglent_SDS1xxxX_E",
+      "idn": "Siglent SDS1xxxX-E",
+      "idfName": "Siglent_SDS1xxxX_E",
+      "idfShortName": "SDS1xxxX_E",
+      "idfFirmwareVersion": "unknown",
+      "idfGuid": "18d71f4e-3660-406e-92f0-eddd962d7814",
+      "idfRevisionNumber": "0.1.0",
+      "idfDescription": "TODO...",
+      "idfSupportedModels": "SDS1xxxX-E",
+      "idfRevisionComments": "No comment",
+      "idfAuthor": "Envox",
+      "sdlFriendlyName": "Siglent SDS1xxxX-E"
+    }
+  ]
+}
